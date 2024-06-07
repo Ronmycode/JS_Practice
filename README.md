@@ -1,2 +1,4 @@
 # JS_Practice
-JS fundamentals practice 
+
+JS fundamentals practice
+change made from local
