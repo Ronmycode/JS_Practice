@@ -1,4 +1,4 @@
-const Employees = [
+const Employees_Obj = [
   {
     id: 1,
     Name: "Cameron",
@@ -8,7 +8,7 @@ const Employees = [
       Sql: "beginer",
       ClientSpace: "expert",
     },
-    Team: ["Steven", "Krista", "Jim", "Ron"],
+    Team: ["Krista", "Jim"],
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const Employees = [
       Sql: "expert",
       ClientSpace: "expert",
     },
-    Team: ["Steven", "Krista", "Ron", "Cameron"],
+    Team: ["Krista"],
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const Employees = [
       Sql: "beginer",
       ClientSpace: "expert",
     },
-    Team: ["Steven", "Jim", "Ron", "Cameron"],
+    Team: ["Jim"],
   },
   {
     id: 4,
@@ -55,3 +55,16 @@ const Employees = [
     Team: ["Steven", "Krista", "Jim"],
   },
 ];
+
+/* #### Array Test #### */
+
+const roles_titles_Arr = [
+  "Manager",
+  "Product Consultant",
+  "Director of Service",
+  "Principal Consultant",
+];
+
+function Employee() {
+  return Employees;
+}
