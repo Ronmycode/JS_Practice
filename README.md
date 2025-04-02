@@ -9,6 +9,8 @@ It start with pending, then the promise can be fulfiled or rejected, and after a
 
 1.3 Promises are ment to be used instead of callbacks, to avoid callback hell since is easier to loop inside ".then"
 
-# 2. Test Practice
+Link: https://www.notion.so/Promises-JS-138df02e2052807580e7f5a393feac89?pvs=4
 
-Solving test exercises one by one
+# 2. Destructuring objects and arrays
+
+link: https://www.notion.so/Destructuring-objects-and-arrays-1c7df02e205280338a65c50f66e23005?pvs=4
