@@ -66,5 +66,20 @@ const roles_titles_Arr = [
 ];
 
 function Employee() {
-  return Employees;
+  return Employees_Obj;
 }
+
+function EmpById(id) {
+  return Employees_Obj.find((d) => d.id === id);
+}
+
+/* Testing to print the object By Id*/
+const emp_batch_one = EmpById(1);
+emp_batch_one;
+
+const Obj_One = EmpById(1);
+
+const { id, Name, Title } = Obj_One;
+Name;
+id;
+Title;
